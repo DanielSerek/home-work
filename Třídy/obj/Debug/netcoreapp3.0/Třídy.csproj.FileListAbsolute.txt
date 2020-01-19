@@ -1,0 +1,3 @@
+C:\Users\Dan\source\repos\Třídy\obj\Debug\netcoreapp3.0\Třídy.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Třídy\obj\Debug\netcoreapp3.0\Třídy.AssemblyInfoInputs.cache
+C:\Users\Dan\source\repos\Třídy\obj\Debug\netcoreapp3.0\Třídy.AssemblyInfo.cs

@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\bin\Debug\7.MetodaSParametry2.exe.config
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\bin\Debug\7.MetodaSParametry2.exe
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\bin\Debug\7.MetodaSParametry2.pdb
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\obj\Debug\7.MetodaSParametry2.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\obj\Debug\7.MetodaSParametry2.exe
+C:\Users\Dan\source\repos\Kapitola6\7.MetodaSParametry2\obj\Debug\7.MetodaSParametry2.pdb

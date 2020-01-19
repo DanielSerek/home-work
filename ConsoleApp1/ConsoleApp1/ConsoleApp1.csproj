@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Dan\Documents\CODING\Green Fox Academy\git-lesson-repository\week-03-s\example2.cs" Link="example2.cs" />
+  </ItemGroup>
+
+</Project>

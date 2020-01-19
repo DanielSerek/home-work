@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola5\2.VnorovaniCykluNasobilka\bin\Debug\8.VnorovaniCykluNasobilka.exe.config
+C:\Users\Dan\source\repos\Kapitola5\2.VnorovaniCykluNasobilka\bin\Debug\8.VnorovaniCykluNasobilka.exe
+C:\Users\Dan\source\repos\Kapitola5\2.VnorovaniCykluNasobilka\bin\Debug\8.VnorovaniCykluNasobilka.pdb
+C:\Users\Dan\source\repos\Kapitola5\2.VnorovaniCykluNasobilka\obj\Debug\8.VnorovaniCykluNasobilka.exe
+C:\Users\Dan\source\repos\Kapitola5\2.VnorovaniCykluNasobilka\obj\Debug\8.VnorovaniCykluNasobilka.pdb

@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola7\3.TridaKonstruktor\bin\Debug\3.TridaKonstruktor.exe.config
+C:\Users\Dan\source\repos\Kapitola7\3.TridaKonstruktor\bin\Debug\3.TridaKonstruktor.exe
+C:\Users\Dan\source\repos\Kapitola7\3.TridaKonstruktor\bin\Debug\3.TridaKonstruktor.pdb
+C:\Users\Dan\source\repos\Kapitola7\3.TridaKonstruktor\obj\Debug\3.TridaKonstruktor.exe
+C:\Users\Dan\source\repos\Kapitola7\3.TridaKonstruktor\obj\Debug\3.TridaKonstruktor.pdb

@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola7\5.PublicPrivateMetody\bin\Debug\5.PublicPrivateMetody.exe.config
+C:\Users\Dan\source\repos\Kapitola7\5.PublicPrivateMetody\bin\Debug\5.PublicPrivateMetody.exe
+C:\Users\Dan\source\repos\Kapitola7\5.PublicPrivateMetody\bin\Debug\5.PublicPrivateMetody.pdb
+C:\Users\Dan\source\repos\Kapitola7\5.PublicPrivateMetody\obj\Debug\5.PublicPrivateMetody.exe
+C:\Users\Dan\source\repos\Kapitola7\5.PublicPrivateMetody\obj\Debug\5.PublicPrivateMetody.pdb

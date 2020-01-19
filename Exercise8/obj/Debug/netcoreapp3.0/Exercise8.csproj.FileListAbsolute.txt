@@ -1,0 +1,11 @@
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.exe
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.deps.json
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.runtimeconfig.json
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.runtimeconfig.dev.json
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.dll
+C:\Users\Dan\source\repos\Exercise8\bin\Debug\netcoreapp3.0\Exercise8.pdb
+C:\Users\Dan\source\repos\Exercise8\obj\Debug\netcoreapp3.0\Exercise8.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Exercise8\obj\Debug\netcoreapp3.0\Exercise8.AssemblyInfoInputs.cache
+C:\Users\Dan\source\repos\Exercise8\obj\Debug\netcoreapp3.0\Exercise8.AssemblyInfo.cs
+C:\Users\Dan\source\repos\Exercise8\obj\Debug\netcoreapp3.0\Exercise8.dll
+C:\Users\Dan\source\repos\Exercise8\obj\Debug\netcoreapp3.0\Exercise8.pdb

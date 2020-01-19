@@ -1,0 +1,13 @@
+﻿KOD_ZAMESTNANCE;JMENO;PRIJMENI;POZICE
+ZAM_001;Pavel;Novák;Programátor
+ZAM_002;Jana;Pokorná;Tester
+ZAM_003;Lucie;Adamová;Účetní
+ZAM_004;Petr;Procházka;Programátor
+ZAM_005;Karel;Běhal;Manažer
+ZAM_006;Jitka;Plachá;Účetní
+ZAM_007;Pavel;Novák;Analytik
+ZAM_008;Veronika;Malá;Tester
+ZAM_009;Ferdinand;Bělík;Programátor
+ZAM_010;Josef;Vyskočil;Programátor
+ZAM_011;Jindřich;Branný;Tester
+ZAM_012;Petra;Šváchová;Manažer

@@ -1,0 +1,11 @@
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.exe
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.deps.json
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.runtimeconfig.json
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.runtimeconfig.dev.json
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.dll
+C:\Users\Dan\source\repos\Problem Solving examples\bin\Debug\netcoreapp3.0\Problem Solving examples.pdb
+C:\Users\Dan\source\repos\Problem Solving examples\obj\Debug\netcoreapp3.0\Problem Solving examples.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Problem Solving examples\obj\Debug\netcoreapp3.0\Problem Solving examples.AssemblyInfoInputs.cache
+C:\Users\Dan\source\repos\Problem Solving examples\obj\Debug\netcoreapp3.0\Problem Solving examples.AssemblyInfo.cs
+C:\Users\Dan\source\repos\Problem Solving examples\obj\Debug\netcoreapp3.0\Problem Solving examples.dll
+C:\Users\Dan\source\repos\Problem Solving examples\obj\Debug\netcoreapp3.0\Problem Solving examples.pdb

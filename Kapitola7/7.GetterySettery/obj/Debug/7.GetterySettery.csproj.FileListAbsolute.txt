@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola7\7.GetterySettery\bin\Debug\7.GetterySettery.exe.config
+C:\Users\Dan\source\repos\Kapitola7\7.GetterySettery\bin\Debug\7.GetterySettery.exe
+C:\Users\Dan\source\repos\Kapitola7\7.GetterySettery\bin\Debug\7.GetterySettery.pdb
+C:\Users\Dan\source\repos\Kapitola7\7.GetterySettery\obj\Debug\7.GetterySettery.exe
+C:\Users\Dan\source\repos\Kapitola7\7.GetterySettery\obj\Debug\7.GetterySettery.pdb

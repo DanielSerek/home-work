@@ -1,0 +1,7 @@
+F:\Pavel\Work\My\Publikace\Knihy\C# bez predchozich znalosti\ZdrojoveKody\Kapitola6\1.PrvniMetoda\bin\Debug\1.PrvniMetoda.exe.config
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\bin\Debug\1.PrvniMetoda.exe.config
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\bin\Debug\1.PrvniMetoda.exe
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\bin\Debug\1.PrvniMetoda.pdb
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\obj\Debug\1.PrvniMetoda.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\obj\Debug\1.PrvniMetoda.exe
+C:\Users\Dan\source\repos\Kapitola6\1.PrvniMetoda\obj\Debug\1.PrvniMetoda.pdb

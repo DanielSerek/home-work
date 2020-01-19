@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\bin\Debug\2.MetodaNavratovaHodnota.exe.config
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\bin\Debug\2.MetodaNavratovaHodnota.exe
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\bin\Debug\2.MetodaNavratovaHodnota.pdb
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\obj\Debug\2.MetodaNavratovaHodnota.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\obj\Debug\2.MetodaNavratovaHodnota.exe
+C:\Users\Dan\source\repos\Kapitola6\2.MetodaNavratovaHodnota\obj\Debug\2.MetodaNavratovaHodnota.pdb

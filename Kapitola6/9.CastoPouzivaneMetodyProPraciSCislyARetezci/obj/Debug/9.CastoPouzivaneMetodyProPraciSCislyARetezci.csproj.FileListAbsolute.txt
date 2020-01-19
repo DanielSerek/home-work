@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\bin\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.exe.config
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\bin\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.exe
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\bin\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.pdb
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\obj\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\obj\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.exe
+C:\Users\Dan\source\repos\Kapitola6\9.CastoPouzivaneMetodyProPraciSCislyARetezci\obj\Debug\9.CastoPouzivaneMetodyProPraciSCislyARetezci.pdb

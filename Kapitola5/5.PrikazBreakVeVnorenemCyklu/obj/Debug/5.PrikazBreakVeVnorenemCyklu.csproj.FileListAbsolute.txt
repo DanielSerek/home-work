@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\bin\Debug\5.PrikazBreakVeVnorenemCyklu.exe.config
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\bin\Debug\5.PrikazBreakVeVnorenemCyklu.exe
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\bin\Debug\5.PrikazBreakVeVnorenemCyklu.pdb
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\obj\Debug\5.PrikazBreakVeVnorenemCyklu.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\obj\Debug\5.PrikazBreakVeVnorenemCyklu.exe
+C:\Users\Dan\source\repos\Kapitola5\5.PrikazBreakVeVnorenemCyklu\obj\Debug\5.PrikazBreakVeVnorenemCyklu.pdb

@@ -1,0 +1,5 @@
+﻿111111;Stehovaci s.r.o.;Blanicka 12 Praha
+222222;Kadernice spol. s.r.o.;Legerova 11 Kolin
+333333;Hotel Albert s.r.o.;K Zizkovu Praha
+444444;Dobra hospudka s.r.o.;Javorova 12 Brno
+555555;Stavby na klic s.r.o.;V polich 55 Brno

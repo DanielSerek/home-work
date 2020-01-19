@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola7\6.PublicPrivatePromenne\bin\Debug\6.PublicPrivatePromenne.exe.config
+C:\Users\Dan\source\repos\Kapitola7\6.PublicPrivatePromenne\bin\Debug\6.PublicPrivatePromenne.exe
+C:\Users\Dan\source\repos\Kapitola7\6.PublicPrivatePromenne\bin\Debug\6.PublicPrivatePromenne.pdb
+C:\Users\Dan\source\repos\Kapitola7\6.PublicPrivatePromenne\obj\Debug\6.PublicPrivatePromenne.exe
+C:\Users\Dan\source\repos\Kapitola7\6.PublicPrivatePromenne\obj\Debug\6.PublicPrivatePromenne.pdb

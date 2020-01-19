@@ -1,0 +1,5 @@
+C:\Users\Dan\source\repos\Kapitola6\3.MetodaSeznamZnamek\bin\Debug\3.MetodaSeznamZnamek.exe.config
+C:\Users\Dan\source\repos\Kapitola6\3.MetodaSeznamZnamek\bin\Debug\3.MetodaSeznamZnamek.exe
+C:\Users\Dan\source\repos\Kapitola6\3.MetodaSeznamZnamek\bin\Debug\3.MetodaSeznamZnamek.pdb
+C:\Users\Dan\source\repos\Kapitola6\3.MetodaSeznamZnamek\obj\Debug\3.MetodaSeznamZnamek.exe
+C:\Users\Dan\source\repos\Kapitola6\3.MetodaSeznamZnamek\obj\Debug\3.MetodaSeznamZnamek.pdb

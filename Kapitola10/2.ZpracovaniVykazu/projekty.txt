@@ -1,0 +1,5 @@
+﻿KOD_PROJEKTU;NAZEV_PROJEKTU;PRIORITA
+PRJ_001;E-learning portál;3
+PRJ_002;Systém řízení výroby v2;1
+PRJ_003;Rezervace zasedacích místností;2
+PRJ_004;Správa vozového parku;3

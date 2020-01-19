@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\bin\Debug\PrvniProgram.exe.config
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\bin\Debug\PrvniProgram.exe
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\bin\Debug\PrvniProgram.pdb
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\obj\Debug\PrvniProgram.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\obj\Debug\PrvniProgram.exe
+C:\Users\Dan\source\repos\PrvniProgram\PrvniProgram\obj\Debug\PrvniProgram.pdb

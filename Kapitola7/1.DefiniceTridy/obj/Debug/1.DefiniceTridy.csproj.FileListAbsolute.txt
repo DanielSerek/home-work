@@ -1,0 +1,7 @@
+F:\Pavel\Work\My\Publikace\Knihy\C# bez predchozich znalosti\ZdrojoveKody\Kapitola7\1.DefiniceTridy\bin\Debug\1.TridyI.exe.config
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\bin\Debug\1.TridyI.exe.config
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\bin\Debug\1.TridyI.exe
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\bin\Debug\1.TridyI.pdb
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\obj\Debug\1.DefiniceTridy.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\obj\Debug\1.TridyI.exe
+C:\Users\Dan\source\repos\Kapitola7\1.DefiniceTridy\obj\Debug\1.TridyI.pdb
