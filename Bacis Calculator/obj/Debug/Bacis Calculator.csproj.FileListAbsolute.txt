@@ -1,0 +1,9 @@
+C:\Users\Dan\source\repos\Bacis Calculator\bin\Debug\Bacis Calculator.exe.config
+C:\Users\Dan\source\repos\Bacis Calculator\bin\Debug\Bacis Calculator.exe
+C:\Users\Dan\source\repos\Bacis Calculator\bin\Debug\Bacis Calculator.pdb
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis Calculator.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis_Calculator.Properties.Resources.resources
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis Calculator.csproj.GenerateResource.cache
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis Calculator.exe
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis Calculator.pdb
+C:\Users\Dan\source\repos\Bacis Calculator\obj\Debug\Bacis_Calculator.Calculator.resources

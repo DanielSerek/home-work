@@ -1,0 +1,6 @@
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\bin\Debug\11.Cviceni2.exe.config
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\bin\Debug\11.Cviceni2.exe
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\bin\Debug\11.Cviceni2.pdb
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\obj\Debug\13.Cviceni2.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\obj\Debug\11.Cviceni2.exe
+C:\Users\Dan\source\repos\Kapitola7\13.Cviceni2\obj\Debug\11.Cviceni2.pdb
