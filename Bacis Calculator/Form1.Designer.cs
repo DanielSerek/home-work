@@ -39,6 +39,7 @@
             this.TwoButton = new System.Windows.Forms.Button();
             this.OneButton = new System.Windows.Forms.Button();
             this.CEButton = new System.Windows.Forms.Button();
+            this.DelButton = new System.Windows.Forms.Button();
             this.DivideButton = new System.Windows.Forms.Button();
             this.SevenButton = new System.Windows.Forms.Button();
             this.EightButton = new System.Windows.Forms.Button();
@@ -48,7 +49,6 @@
             this.FiveButton = new System.Windows.Forms.Button();
             this.SixButton = new System.Windows.Forms.Button();
             this.MinusButton = new System.Windows.Forms.Button();
-            this.DelButton = new System.Windows.Forms.Button();
             this.ButtonsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,7 +65,7 @@
             // 
             this.CalculationResultText.Location = new System.Drawing.Point(12, 35);
             this.CalculationResultText.Name = "CalculationResultText";
-            this.CalculationResultText.Size = new System.Drawing.Size(348, 23);
+            this.CalculationResultText.Size = new System.Drawing.Size(236, 32);
             this.CalculationResultText.TabIndex = 1;
             this.CalculationResultText.Text = " Please enter an equation and press enter";
             // 
@@ -96,7 +96,7 @@
             this.ButtonsPanel.Controls.Add(this.FiveButton, 1, 2);
             this.ButtonsPanel.Controls.Add(this.SixButton, 2, 2);
             this.ButtonsPanel.Controls.Add(this.MinusButton, 3, 2);
-            this.ButtonsPanel.Location = new System.Drawing.Point(15, 62);
+            this.ButtonsPanel.Location = new System.Drawing.Point(12, 70);
             this.ButtonsPanel.Name = "ButtonsPanel";
             this.ButtonsPanel.RowCount = 5;
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -104,7 +104,7 @@
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.ButtonsPanel.Size = new System.Drawing.Size(236, 233);
+            this.ButtonsPanel.Size = new System.Drawing.Size(239, 234);
             this.ButtonsPanel.TabIndex = 2;
             // 
             // EqualsButton
@@ -112,7 +112,7 @@
             this.EqualsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EqualsButton.Location = new System.Drawing.Point(180, 187);
             this.EqualsButton.Name = "EqualsButton";
-            this.EqualsButton.Size = new System.Drawing.Size(53, 43);
+            this.EqualsButton.Size = new System.Drawing.Size(56, 44);
             this.EqualsButton.TabIndex = 10;
             this.EqualsButton.Text = "=";
             this.EqualsButton.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             this.DotButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DotButton.Location = new System.Drawing.Point(121, 187);
             this.DotButton.Name = "DotButton";
-            this.DotButton.Size = new System.Drawing.Size(53, 43);
+            this.DotButton.Size = new System.Drawing.Size(53, 44);
             this.DotButton.TabIndex = 9;
             this.DotButton.Text = ".";
             this.DotButton.UseVisualStyleBackColor = true;
@@ -134,7 +134,7 @@
             this.ZeroButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ZeroButton.Location = new System.Drawing.Point(62, 187);
             this.ZeroButton.Name = "ZeroButton";
-            this.ZeroButton.Size = new System.Drawing.Size(53, 43);
+            this.ZeroButton.Size = new System.Drawing.Size(53, 44);
             this.ZeroButton.TabIndex = 8;
             this.ZeroButton.Text = "0";
             this.ZeroButton.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@
             this.PlusButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlusButton.Location = new System.Drawing.Point(180, 141);
             this.PlusButton.Name = "PlusButton";
-            this.PlusButton.Size = new System.Drawing.Size(53, 40);
+            this.PlusButton.Size = new System.Drawing.Size(56, 40);
             this.PlusButton.TabIndex = 6;
             this.PlusButton.Text = "+";
             this.PlusButton.UseVisualStyleBackColor = true;
@@ -196,12 +196,23 @@
             this.CEButton.UseVisualStyleBackColor = true;
             this.CEButton.Click += new System.EventHandler(this.CEButton_Click);
             // 
+            // DelButton
+            // 
+            this.DelButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DelButton.Location = new System.Drawing.Point(121, 3);
+            this.DelButton.Name = "DelButton";
+            this.DelButton.Size = new System.Drawing.Size(53, 40);
+            this.DelButton.TabIndex = 0;
+            this.DelButton.Text = "Del";
+            this.DelButton.UseVisualStyleBackColor = true;
+            this.DelButton.Click += new System.EventHandler(this.DelButton_Click);
+            // 
             // DivideButton
             // 
             this.DivideButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DivideButton.Location = new System.Drawing.Point(180, 3);
             this.DivideButton.Name = "DivideButton";
-            this.DivideButton.Size = new System.Drawing.Size(53, 40);
+            this.DivideButton.Size = new System.Drawing.Size(56, 40);
             this.DivideButton.TabIndex = 0;
             this.DivideButton.Text = "÷";
             this.DivideButton.UseVisualStyleBackColor = true;
@@ -245,7 +256,7 @@
             this.TimesButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TimesButton.Location = new System.Drawing.Point(180, 49);
             this.TimesButton.Name = "TimesButton";
-            this.TimesButton.Size = new System.Drawing.Size(53, 40);
+            this.TimesButton.Size = new System.Drawing.Size(56, 40);
             this.TimesButton.TabIndex = 0;
             this.TimesButton.Text = "x";
             this.TimesButton.UseVisualStyleBackColor = true;
@@ -289,22 +300,11 @@
             this.MinusButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MinusButton.Location = new System.Drawing.Point(180, 95);
             this.MinusButton.Name = "MinusButton";
-            this.MinusButton.Size = new System.Drawing.Size(53, 40);
+            this.MinusButton.Size = new System.Drawing.Size(56, 40);
             this.MinusButton.TabIndex = 2;
             this.MinusButton.Text = "-";
             this.MinusButton.UseVisualStyleBackColor = true;
             this.MinusButton.Click += new System.EventHandler(this.MinusButton_Click);
-            // 
-            // DelButton
-            // 
-            this.DelButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DelButton.Location = new System.Drawing.Point(121, 3);
-            this.DelButton.Name = "DelButton";
-            this.DelButton.Size = new System.Drawing.Size(53, 40);
-            this.DelButton.TabIndex = 0;
-            this.DelButton.Text = "Del";
-            this.DelButton.UseVisualStyleBackColor = true;
-            this.DelButton.Click += new System.EventHandler(this.DelButton_Click);
             // 
             // Calculator
             // 
@@ -314,7 +314,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.CEButton;
-            this.ClientSize = new System.Drawing.Size(261, 315);
+            this.ClientSize = new System.Drawing.Size(261, 326);
             this.Controls.Add(this.ButtonsPanel);
             this.Controls.Add(this.CalculationResultText);
             this.Controls.Add(this.UserInputText);

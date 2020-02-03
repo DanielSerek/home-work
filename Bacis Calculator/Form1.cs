@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace Bacis_Calculator
 {
@@ -339,8 +340,73 @@ namespace Bacis_Calculator
         {
             // TODO: Finish
 
+
+            this.CalculationResultText.Text = ParseOperation();
+
+
             // Focus the user input text
             FocusInputText();
+        }
+
+
+        /// <summary>
+        /// Parses the user equation and calculates the result
+        /// </summary>
+        /// <returns></returns>
+        private string ParseOperation()
+        {
+            try
+            {
+                // Get the users equation input
+                var input = this.UserInputText.Text;
+
+                // Remove all spaces
+                input = input.Replace(" ", "");
+
+                // Create a new top-level operation
+                var operation = new Operation();
+                var leftSide = true;
+
+                // Loop through each character of the input
+                // starting from the left working to the right
+                for (int i = 0; i < input.Length; i++)
+                {
+                    // TODO: Handle order priority
+                    // 4 + 5 * 3
+                    // It should calculate 5 * 3 first, then 4 + the result
+
+                    // Check if the current character is a number
+                    if ("0123456789.".Any(c => input[i] == c))
+                    {
+                        if (leftSide)
+                            operation.LeftSide = AddNumberPart(operation.LeftSide,
+                                                               input[i]);
+                    }
+
+                }
+                
+                return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                return $"Invalid equation. {ex.Message}";
+                
+            }
+        }
+
+        /// <summary>
+        /// Attempts to add a new character to the current number, checking for valid characters as it goes
+        /// </summary>
+        /// <param name="currentNumber">The current number string</param>
+        /// <param name="newCharacter">The new character to append to the string</param>
+        /// <returns></returns>
+        private string AddNumberPart(string currentNumber, char newCharacter)
+        {
+            // Check if there is already a . in the number
+            if (newCharacter == '.' && currentNumber.Contains("."))
+                throw new InvalidOperationException($"Number {currentNumber} already contains a . and another cannot be added");
+
+            return currentNumber + newCharacter;
         }
 
         #region Form
