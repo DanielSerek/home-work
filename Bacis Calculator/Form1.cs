@@ -379,19 +379,150 @@ namespace Bacis_Calculator
                     if ("0123456789.".Any(c => input[i] == c))
                     {
                         if (leftSide)
-                            operation.LeftSide = AddNumberPart(operation.LeftSide,
-                                                               input[i]);
+                            operation.LeftSide = AddNumberPart(operation.LeftSide,input[i]);
+                        else
+                            operation.RightSide = AddNumberPart(operation.RightSide, input[i]);
                     }
+                    // If it is an operator ( + - * / ) set the operator type
+                    else if ("+-*/".Any(c => input[i] == c))
+                    {
+                        // If we are on the right side already, we need to calculate our current operation
+                        // and set the result to the left side of the next operation
+                        if (!leftSide)
+                        {
+                            // Get the operator type
+                            var operatorType = GetOperationType(input[i]);
 
+                            // Check if we actually have a right side number
+                            if (operation.RightSide.Length == 0)
+                            {
+                                // Check the operator is not a minus (as they could be creating a negative number)
+                                if (operatorType != OperationType.Minus)
+                                    throw new InvalidOperationException($"Operator (+ * / or more than on -) specified without a right side number");
+
+                                // If we got here, the operator is a minus, and there is no left number currently, so add the minus to the number
+                                operation.RightSide += input[i];
+                            }
+                            else
+                            {
+                                // Calculate previous equation and set to the left side
+                                operation.LeftSide = CalculateOperation(operation);
+
+                                // Set the new operator
+                                operation.OperationType = operatorType;
+
+                                // Clear the previous right number
+                                operation.RightSide = string.Empty;
+                            }
+                        }
+                        else
+                        {
+                            // Get the operator type
+                            var operatorType = GetOperationType(input[i]);
+
+                            // Check if we actually have a left side number
+                            if (operation.LeftSide.Length == 0)
+                            {
+                                // Check the operator is not a minus (as they could be creating a negative number)
+                                if (operatorType != OperationType.Minus)
+                                    throw new InvalidOperationException($"Operator (+ * / or more than on -) specified without an left side number");
+
+                                // If we got here, the operator is a minus, and there is no left number currently, so add the minus to the number
+                                operation.LeftSide += input[i];
+                            }
+                            else
+                            {
+                                // If we got here, we have a left number and now an operator, so we want to move to the right side
+
+                                // Set the operation type
+                                operation.OperationType = operatorType;
+
+                                // Move to the right side
+                                leftSide = false;
+                            }
+                        }
+                    }
                 }
-                
-                return string.Empty;
+
+                // If we are done parsing, and there were no exceptions,
+                // calculate the current operation
+                return CalculateOperation(operation);
             }
             catch (Exception ex)
             {
                 return $"Invalid equation. {ex.Message}";
                 
             }
+        }
+
+        /// <summary>
+        /// Calculates an <see cref="Operation"/> and returns the result
+        /// </summary>
+        /// <param name="operation">The operation to calculate</param>
+        private string CalculateOperation(Operation operation)
+        {
+            // Store the number values of the string representation            
+            decimal left = 0;
+            decimal right = 0;
+
+            // Check if we have a valid left side number
+            if (string.IsNullOrEmpty(operation.LeftSide) || !decimal.TryParse(operation.LeftSide, out left))
+                throw new InvalidOperationException($"Left side of the operation was not a number. {operation.LeftSide}");
+
+            // Check if we have a valid right side number
+            if (string.IsNullOrEmpty(operation.RightSide) || !decimal.TryParse(operation.RightSide, out right))
+                throw new InvalidOperationException($"Left side of the operation was not a number. {operation.RightSide}");
+
+            try
+            {
+                switch (operation.OperationType)
+                {
+                    case OperationType.Add:
+                        return (left + right).ToString();
+                    case OperationType.Minus:
+                        return (left - right).ToString();
+                    case OperationType.Divide:
+                        return (left / right).ToString();
+                    case OperationType.Multiply:
+                        return (left * right).ToString();
+                    default:
+                        throw new InvalidOperationException($"Unknown operator type when calculating operation. {operation.OperationType}");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Failed to calculate the operation {operation.LeftSide} {operation.OperationType} {operation.RightSide}, {ex.Message}");
+            }
+
+
+            return string.Empty;
+        }
+
+        /// <summary>
+        /// Accepts a character and returns the known <see cref="OperationType"/>
+        /// </summary>
+        /// <param name="character">The character to parse</param>
+        /// <returns></returns>
+        private OperationType GetOperationType(char character)
+        {
+            switch (character)
+            {
+                case '+':
+                    return OperationType.Add;
+
+                case '-':
+                    return OperationType.Minus;
+
+                case '/':
+                    return OperationType.Divide;
+
+                case '*':
+                    return OperationType.Multiply;
+
+                default:
+                    throw new InvalidOperationException($"Unknown operator type {character}");
+            }
+
         }
 
         /// <summary>
